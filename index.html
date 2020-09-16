@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@531&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Infinity Loader</title>
+</head>
+<body>
+    <div class="mobile-nav-bar">
+        <div id="myLinks">
+            <a href="https://infinityloader.com/download/InfinityLoader.zip" download>Download</a>
+            <a href="https://discord.gg/PCqaeE2">Discord</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+            <i>&#9776;</i>
+        </a>
+    </div>
+    <div class="nav-bar">
+        <h1 class="logo">
+            <img id="logo-spinner" src='img/logo3.png' loading="lazy"/>
+            <img id="logo-text" src='img/il_text.png' loading="lazy">
+        </h1>
+        <ul class="nav">
+            <li>
+                <a href="https://infinityloader.com/download/InfinityLoader.zip">Download</a>
+            </li>
+            <li>
+                <a href="https://discord.gg/PCqaeE2">Discord</a>
+            </li>
+        </ul>
+    </div>
+    <div class="main-container">
+        <header>
+            <div>
+                <p>The only GSC Compiler tailored for the IW Engine.</p>
+                <p>Supported across Xbox, PS3, and PC.</p>
+            </div>
+            <a class="button" href="https://infinityloader.com/download/InfinityLoader.zip" download>Download</a>
+        </header>
+    </div>
+    <script>
+        function toggleNav() {
+            var x = document.getElementById("myLinks");
+            var icon = document.getElementsByClassName('icon')[0];
+            x.style.display = x.style.display === "block" ? "none" : "block";
+            x.style.display === "block" ? icon.style.width = "80%" : icon.style.width = "100%";
+        }
+    </script>
+</body>
+</html>
