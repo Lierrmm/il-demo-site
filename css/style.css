@@ -177,7 +177,7 @@ select {
 header {
     height: 900px;
     padding: 20px;
-    background-image: url(/img/ghosts.jpg);
+    background-image: url(../img/ghosts.jpg);
     background-size: cover;
     background-position: center;
     text-align: center;
